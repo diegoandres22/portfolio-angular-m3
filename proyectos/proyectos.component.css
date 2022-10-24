@@ -1,0 +1,42 @@
+
+/* proyectos */
+
+.contieneProyectos {
+    width: 100vw;
+    height: 140vh;
+    /* background: yellowgreen; */
+
+    background-image: radial-gradient(circle, yellowgreen, #0300caad, #00015093, yellowgreen, #020060c2, #020065a9, yellowgreen, #0c016f8e, rgb(13, 9, 78), rgb(13, 9, 78), rgb(13, 9, 78), rgb(13, 9, 78));
+}
+
+.tituloProyectos h4 {
+    font-size: 3em;
+    color: var(--colorLetrasTrabajoEstudy);
+
+}
+
+.cajaProyectos {
+
+    width: 250px;
+    height: 200px;
+    margin: 35px auto 25px auto;
+    transition: all 0.4s;
+}
+
+.cajaProyectos img {
+    width: 250px;
+    height: 200px;
+
+}
+
+.cajaProyectos:hover {
+
+
+    transform: scale(1.4);
+
+
+}
+
+
+
+

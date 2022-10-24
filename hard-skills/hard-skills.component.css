@@ -1,0 +1,384 @@
+
+/* hard skills */
+.skills-hard {
+    position: relative;
+    z-index: -2;
+    background-image: radial-gradient(circle, #0031b8, #0300caad, #00015093, #030099, #020060c2, #020065a9, #010db8b6, #0c016f8e, rgb(13, 9, 78), rgb(13, 9, 78), rgb(13, 9, 78), rgb(13, 9, 78));
+    height: 120vh;
+    color: var(--colorLetrasTrabajoEstudy);
+    padding-top: 70px;
+
+}
+
+.filahard {
+    position: relative;
+    top: -100px;
+}
+
+.html {
+    position: relative;
+    top: -180px;
+    left: 93px;
+    width: 74px;
+    height: 170px;
+    z-index: -1;
+    border-radius: 50px;
+
+    background: orangered;
+    animation: animate 2s ease-in-out infinite;
+}
+
+.conteneHtml p {
+    position: relative;
+
+    top: -140px;
+}
+
+.contenecss img {
+
+    width: 130px;
+}
+
+.css {
+    position: relative;
+    top: -190px;
+    left: 93px;
+    width: 75px;
+    height: 170px;
+    z-index: -1;
+    border-radius: 30px;
+
+    background: rgb(0, 89, 255);
+    animation: animate 2s ease-in-out infinite;
+}
+
+.contenecss p {
+    position: relative;
+
+    top: -170px;
+}
+
+
+
+.sprin {
+    position: relative;
+    top: -160px;
+    left: 85px;
+    width: 90px;
+    height: 140px;
+    z-index: -1;
+    border-radius: 50px;
+
+    background: rgb(0, 167, 22);
+    animation: animate 2s ease-in-out infinite;
+}
+
+.contenesprin p {
+    position: relative;
+
+    top: -135px;
+}
+
+.js {
+    position: relative;
+    top: -170px;
+    left: 89px;
+    width: 83px;
+    height: 160px;
+    z-index: -1;
+    border-radius: 28px;
+
+    background: rgb(255, 230, 0);
+    animation: animate 2s ease-in-out infinite;
+}
+
+.contenejs p {
+    position: relative;
+
+    top: -150px;
+}
+
+.angu {
+    position: relative;
+    top: -185px;
+    left: 89px;
+    width: 83px;
+    height: 160px;
+    z-index: -1;
+
+
+    background: red;
+    animation: animate 2s ease-in-out infinite;
+}
+
+.conteneangu p {
+    position: relative;
+
+    top: -145px;
+}
+
+.msql {
+    position: relative;
+    top: -166px;
+    left: 70px;
+    width: 120px;
+    height: 148px;
+    z-index: -1;
+    border-radius: 150px;
+
+    background: rgb(72, 151, 255);
+    background: rgb(247, 177, 47);
+    animation: animate 2s ease-in-out infinite;
+}
+
+.contenemsql p {
+    position: relative;
+
+    top: -155px;
+}
+
+.git {
+    position: relative;
+    top: -189px;
+    left: 85px;
+    width: 90px;
+    height: 190px;
+    z-index: -1;
+    border-radius: 100px;
+
+    background: aliceblue;
+    animation: animate 2s ease-in-out infinite;
+}
+
+.contenegit p {
+    position: relative;
+
+    top: -160px;
+}
+
+.boostrap {
+    position: relative;
+    top: -185px;
+    left: 93px;
+    width: 74px;
+    height: 180px;
+    z-index: -1;
+    border-radius: 50px;
+
+    background: rgb(174, 0, 255);
+    animation: animate 2s ease-in-out infinite;
+}
+
+.conteneboos p {
+    position: relative;
+
+    top: -165px;
+}
+
+/*  efecto agua */
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(1% 73%, 9% 66%, 21% 59%, 33% 56%, 47% 59%, 59% 65%, 68% 70%, 81% 69%, 92% 61%, 99% 51%, 100% 100%, 0 100%);
+    }
+
+    50% {
+        clip-path: polygon(0 51%, 6% 60%, 14% 68%, 29% 71%, 47% 63%, 57% 54%, 68% 51%, 81% 51%, 94% 58%, 100% 66%, 100% 100%, 0 100%);
+    }
+}
+
+
+
+
+/* respnsive desing */
+@media screen and (max-width: 1441px) {
+
+    /* hard skills */
+    .html,
+    .css,
+    .sprin,
+    .js,
+    .msql,
+    .angu,
+    .git,
+    .boostrap {
+        left: 116px;
+    }
+
+    .git {
+        left: 110px;
+    }
+
+    .angu {
+        left: 110px;
+
+    }
+
+    .js {
+        left: 111px;
+    }
+
+    .msql {
+        left: 91px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    /* hard skills */
+
+    .skills-hard {
+        height: 135vh;}
+        
+    .html,
+    .css,
+    .sprin,
+    .js,
+    .msql,
+    .angu,
+    .git,
+    .boostrap {
+
+        left: 70px;
+    }
+
+    .git {
+        left: 65px;
+    }
+
+    .angu {
+        left: 60px;
+        width: 90px;
+        height: 160px;
+        border-radius: 10px;
+
+    }
+
+    .js {
+
+        left: 66px;
+
+    }
+
+    .msql {
+
+        left: 48px;
+
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    /* hard skills */
+    .skills-hard {
+       
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* hard skills */
+    .skills-hard {
+
+        height: 210vh;
+    }
+
+    .html,
+    .css,
+    .sprin,
+    .js,
+    .msql,
+    .git,
+    .boostrap {
+
+        left: 130px;
+
+    }
+
+    .angu {
+        left: 125px;
+    }
+
+    .js {
+
+        left: 125px;
+
+    }
+
+    .msql {
+
+        left: 110px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* hard skills */
+    .skills-hard {
+
+        height: 220vh;
+    }
+
+    .html,
+    .css,
+    .sprin,
+    .js,
+    .msql,
+    .git,
+    .boostrap {
+
+        left: 85px;
+
+    }
+
+    .angu,
+    .js {
+        left: 80px;
+    }
+
+    .msql {
+
+        left: 60px;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    /* hard skills */
+    .skills-hard {
+
+        height: 240vh;
+    }
+
+    .html,
+    .css,
+    .sprin,
+    .js,
+    .msql,
+    .git,
+    .boostrap {
+
+        opacity: 0;
+
+
+    }
+
+    .angu,
+    .js {
+        opacity: 0;
+    }
+
+    .msql {
+        opacity: 0;
+    }
+
+}

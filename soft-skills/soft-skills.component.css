@@ -1,0 +1,92 @@
+
+/* soft skills */
+.skills-soft {
+
+    background-image: radial-gradient(circle, #0031b8, #0300caad, #00015093, #030099, #020060c2, #020065a9, #010db8b6, #0c016f8e, rgb(13, 9, 78), rgb(13, 9, 78), rgb(13, 9, 78), rgb(13, 9, 78));
+    height: 100vh;
+    color: var(--colorLetrasTrabajoEstudy);
+    padding-top: 70px;
+}
+
+.titulo-soft {
+    font-size: 3em;
+    margin-bottom: 5%;
+
+}
+
+.filauno,
+.filados {
+    font-size: 1.5em;
+    color: var(--colorLetrasTrabajoEstudy);
+
+}
+
+
+
+
+
+/* respnsive desing */
+@media screen and (max-width: 1441px) {
+
+    /* soft skills */
+    .skills-soft {
+        height: 110vh;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    /* soft skills */
+    .skills-soft {
+        height: 100vh;
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    /* soft skills */
+    .skills-soft {
+        padding-top: 20px;
+        height: 200vh;
+      
+    }
+
+    .titulo-soft {
+        font-size: 2em;
+        margin-bottom: 2%;
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+    /* soft skills */
+    .skills-soft {
+        height: 150vh;
+    }
+
+    .titulo-soft {
+        font-size: 2em;
+        margin-bottom: 2%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    /* soft skills */
+    .skills-soft {
+        height: 260vh;
+
+    }
+
+}

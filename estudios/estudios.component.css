@@ -1,0 +1,85 @@
+/* estudios */
+.contenedor-estudios {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.603)), url(./../../assets/imagenes/fondo-habilidades2.jpg);
+    background-size: cover;
+    background-position: left;
+    color: aliceblue;
+    width: 90vw;
+    height: 115vh;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.estudios {
+    display: flex;
+    flex-direction: column;
+}
+
+.estudios h2 {
+
+    margin: auto;
+
+}
+
+.estudios1,
+.estudios2,
+.estudios3 {
+    display: flex;
+    font-size: 1em;
+    margin: 5% auto;
+
+}
+
+.estudios2 {
+    position: relative;
+    top: -50px;
+}
+
+.estudios3 {
+    position: relative;
+    top: -90px;
+}
+
+.estudios1 img,
+.estudios2 img,
+.estudios3 img {
+    height: 120px;
+    border-radius: 5%;
+}
+
+.estudios2 img {
+    height: 140px;
+
+}
+
+.estudiosP,
+.estudiosP2 {
+
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.titu-fechaEstudios,
+.titu-fechaEstudios2 {
+    width: 67vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* diseno responsivo */
+
+
+
+/* respnsive desing */
+@media screen and (max-width: 1441px) {
+
+    /* estudios */
+
+    .contenedor-estudios {
+        height: 135vh;
+    }
+
+}

@@ -1,0 +1,29 @@
+
+/*  acerca de  parrafo*/
+.contenedorAcercaDE {
+
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url(./../../assets/imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: left;
+    color: aliceblue;
+    width: 90vw;
+    height: 110vh;
+    margin: auto;
+
+}
+
+.col-2 img {
+    margin-top: 80px;
+    width: 140px;
+    user-select: none;
+    background-position: center bottom;
+
+    border-radius: 50%;
+
+}
+
+.col-10 {
+    padding-top: 140px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
